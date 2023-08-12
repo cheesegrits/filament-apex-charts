@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "filament/filament": "^3.0",
+        "filament/filament": "dev-3.x-alpha",
         "illuminate/contracts": "^9.0|^10.0",
         "livewire/livewire": "^2.11",
         "spatie/laravel-package-tools": "^1.13.0"
@@ -69,6 +69,12 @@
             }
         }
     },
-    "minimum-stability": "alpha",
+    "repositories": {
+        "filament-php": {
+            "type": "vcs",
+            "url": "https://github.com/cheesegrits/filament"
+        }
+    },
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
